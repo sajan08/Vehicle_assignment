@@ -5,49 +5,49 @@ This project demonstrates secure CRUD operations, role-based access control, XSS
 
 ---
 
-## 🚀 Features
+## Features
 
-### ✔ Vehicle CRUD
+### Vehicle CRUD
 - Vehicle Number (Alphanumeric)
 - Vehicle Type (Two / Three / Four wheelers)
 - Vehicle Model
 - Vehicle Description
 
-### ✔ Role-Based Access
+### Role-Based Access
 | Role         | Permissions                     |
 |--------------|----------------------------------|
 | Super Admin  | Create, Read, Update, Delete     |
 | Admin        | Read, Update                     |
 | User         | Read Only                        |
 
-### ✔ Security
+### Security
 - XSS protection using **Bleach**
 - Custom **IP filtering** middleware
 - Validations for all fields
 
-### ✔ Database
+### Database
 - Uses **SQLite** (default Django database)
 
 ---
 
 ## 📦 Installation & Setup
 
-### 1️⃣ Create virtual environment
+### 1️ Create virtual environment
 python -m venv vechicle_env
 vechicle_env\Scripts\activate
 pip install -r requirements.txt
 
-### 2️⃣ Install dependencies
+### 2️ Install dependencies
 pip install -r requirements.txt
 
-### 3️⃣ Apply migrations
+### 3️ Apply migrations
 python manage.py makemigrations
 python manage.py migrate
 
-### 4️⃣ Create admin user
+### 4️ Create admin user
 python manage.py createsuperuser
 
-### 5️⃣ Run server
+### 5️ Run server
 python manage.py runserver
 
 ### Vehicle Endpoints
