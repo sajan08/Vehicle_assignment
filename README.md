@@ -30,7 +30,7 @@ This project demonstrates secure CRUD operations, role-based access control, XSS
 
 ---
 
-## 📦 Installation & Setup
+## Installation & Setup
 
 ### 1️ Create virtual environment
 python -m venv vechicle_env
