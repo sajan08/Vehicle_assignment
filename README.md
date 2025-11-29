@@ -33,26 +33,21 @@ This project demonstrates secure CRUD operations, role-based access control, XSS
 ## 📦 Installation & Setup
 
 ### 1️⃣ Create virtual environment
-```bash
 python -m venv vechicle_env
 vechicle_env\Scripts\activate
 pip install -r requirements.txt
 
 ### 2️⃣ Install dependencies
-```bash
 pip install -r requirements.txt
 
 ### 3️⃣ Apply migrations
-```bash
 python manage.py makemigrations
 python manage.py migrate
 
 ### 4️⃣ Create admin user
-```bash
 python manage.py createsuperuser
 
 ### 5️⃣ Run server
-```bash
 python manage.py runserver
 
 ### Vehicle Endpoints
